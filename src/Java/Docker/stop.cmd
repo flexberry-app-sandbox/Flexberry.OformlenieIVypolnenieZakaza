@@ -1,0 +1,1 @@
+docker-compose -p oformlenie_i_vypolnenie_zakaza-java down

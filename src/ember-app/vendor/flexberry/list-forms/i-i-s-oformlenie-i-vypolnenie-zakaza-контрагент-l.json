@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-контрагент-e",
+  "editForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-контрагент-e",
+  "external": false,
+  "caption": "Контрагент",
+  "name": "IISOformlenie_i_vypolnenie_zakazaКонтрагентL",
+  "className": "КонтрагентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-контрагент",
+      "modelProjection": "КонтрагентL"
+    }
+  ]
+}

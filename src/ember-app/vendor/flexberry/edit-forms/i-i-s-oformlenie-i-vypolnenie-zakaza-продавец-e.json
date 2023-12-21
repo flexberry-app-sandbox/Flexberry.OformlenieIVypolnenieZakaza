@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Продавец",
+  "name": "IISOformlenie_i_vypolnenie_zakazaПродавецE",
+  "className": "ПродавецE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-продавец",
+      "modelProjection": "ПродавецE"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Контрагент",
+  "name": "IISOformlenie_i_vypolnenie_zakazaКонтрагентE",
+  "className": "КонтрагентE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-контрагент",
+      "modelProjection": "КонтрагентE"
+    }
+  ]
+}

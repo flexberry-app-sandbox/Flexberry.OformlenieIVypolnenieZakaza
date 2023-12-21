@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ВНаличии",
+      "projection": "ВНаличииL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Товары",
+  "name": "IISOformlenie_i_vypolnenie_zakazaТоварыE",
+  "className": "ТоварыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-товары",
+      "modelProjection": "ТоварыE"
+    }
+  ]
+}

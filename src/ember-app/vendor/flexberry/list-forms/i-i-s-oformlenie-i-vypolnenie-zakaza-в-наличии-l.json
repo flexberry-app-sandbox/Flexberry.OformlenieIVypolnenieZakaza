@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-в-наличии-e",
+  "editForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-в-наличии-e",
+  "external": false,
+  "caption": "В наличии",
+  "name": "IISOformlenie_i_vypolnenie_zakazaВНаличииL",
+  "className": "ВНаличииL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-в-наличии",
+      "modelProjection": "ВНаличииL"
+    }
+  ]
+}

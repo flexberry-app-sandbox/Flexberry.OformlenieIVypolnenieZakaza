@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-заказы-e",
+  "editForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-заказы-e",
+  "external": false,
+  "caption": "Заказы",
+  "name": "IISOformlenie_i_vypolnenie_zakazaЗаказыL",
+  "className": "ЗаказыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-заказы",
+      "modelProjection": "ЗаказыL"
+    }
+  ]
+}

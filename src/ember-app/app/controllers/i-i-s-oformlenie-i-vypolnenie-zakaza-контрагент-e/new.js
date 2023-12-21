@@ -1,0 +1,4 @@
+import IISOformlenie_i_vypolnenie_zakazaКонтрагентEController from '../i-i-s-oformlenie-i-vypolnenie-zakaza-контрагент-e';
+
+var IISOformlenie_i_vypolnenie_zakazaКонтрагентENewController = IISOformlenie_i_vypolnenie_zakazaКонтрагентEController;
+export default IISOformlenie_i_vypolnenie_zakazaКонтрагентENewController;

@@ -1,0 +1,4 @@
+import IISOformlenie_i_vypolnenie_zakazaМестоВыдачиEController from '../i-i-s-oformlenie-i-vypolnenie-zakaza-место-выдачи-e';
+
+var IISOformlenie_i_vypolnenie_zakazaМестоВыдачиENewController = IISOformlenie_i_vypolnenie_zakazaМестоВыдачиEController;
+export default IISOformlenie_i_vypolnenie_zakazaМестоВыдачиENewController;

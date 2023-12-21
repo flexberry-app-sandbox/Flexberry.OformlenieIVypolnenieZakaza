@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-оповещения-e",
+  "editForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-оповещения-e",
+  "external": false,
+  "caption": "Оповещения",
+  "name": "IISOformlenie_i_vypolnenie_zakazaОповещенияL",
+  "className": "ОповещенияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-оповещения",
+      "modelProjection": "ОповещенияL"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+﻿{
+  "name": "IISOformlenie_i_vypolnenie_zakazaОповещения",
+  "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-оповещения",
+  "className": "Оповещения",
+  "nameSpace": "IIS.Oformlenie_i_vypolnenie_zakaza",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "описание",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказы",
+      "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-заказы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "местоВыдачи",
+      "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-место-выдачи",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОповещенияE",
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-оповещения",
+      "attrs": [
+        {
+          "name": "описание",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Адрес",
+          "lookupValueField": "адрес",
+          "relationName": "МестоВыдачи",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адрес",
+              "caption": "Адрес",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Место выдачи",
+          "name": "местоВыдачи",
+          "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-место-выдачи",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Статус",
+          "lookupValueField": "статус",
+          "relationName": "Заказы",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "статус",
+              "caption": "Статус",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Заказы",
+          "name": "заказы",
+          "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-заказы",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ОповещенияL",
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-оповещения",
+      "attrs": [
+        {
+          "name": "описание",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "МестоВыдачи",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адрес",
+              "caption": "Адрес",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Адрес",
+          "name": "местоВыдачи",
+          "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-место-выдачи",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Заказы",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "статус",
+              "caption": "Статус",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Статус",
+          "name": "заказы",
+          "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-заказы",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

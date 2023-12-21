@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-место-выдачи-e",
+  "editForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-место-выдачи-e",
+  "external": false,
+  "caption": "Место выдачи",
+  "name": "IISOformlenie_i_vypolnenie_zakazaМестоВыдачиL",
+  "className": "МестоВыдачиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-место-выдачи",
+      "modelProjection": "МестоВыдачиL"
+    }
+  ]
+}

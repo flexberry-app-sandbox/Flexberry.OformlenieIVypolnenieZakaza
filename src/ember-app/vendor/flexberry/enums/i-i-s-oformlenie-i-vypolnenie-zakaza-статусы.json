@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Oformlenie_i_vypolnenie_zakaza",
+  "className": "Статусы",
+  "enumObjects": {
+    "Готов": "Готов",
+    "Выдан": "Выдан",
+    "НаСборке": "На сборке"
+  }
+}

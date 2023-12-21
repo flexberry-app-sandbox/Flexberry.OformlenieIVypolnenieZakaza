@@ -1,0 +1,4 @@
+import IISOformlenie_i_vypolnenie_zakazaОповещенияEController from '../i-i-s-oformlenie-i-vypolnenie-zakaza-оповещения-e';
+
+var IISOformlenie_i_vypolnenie_zakazaОповещенияENewController = IISOformlenie_i_vypolnenie_zakazaОповещенияEController;
+export default IISOformlenie_i_vypolnenie_zakazaОповещенияENewController;

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-продавец-e",
+  "editForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-продавец-e",
+  "external": false,
+  "caption": "Продавец",
+  "name": "IISOformlenie_i_vypolnenie_zakazaПродавецL",
+  "className": "ПродавецL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-продавец",
+      "modelProjection": "ПродавецL"
+    }
+  ]
+}

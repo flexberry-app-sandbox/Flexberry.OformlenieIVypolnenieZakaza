@@ -1,0 +1,4 @@
+import IISOformlenie_i_vypolnenie_zakazaПродавецEController from '../i-i-s-oformlenie-i-vypolnenie-zakaza-продавец-e';
+
+var IISOformlenie_i_vypolnenie_zakazaПродавецENewController = IISOformlenie_i_vypolnenie_zakazaПродавецEController;
+export default IISOformlenie_i_vypolnenie_zakazaПродавецENewController;

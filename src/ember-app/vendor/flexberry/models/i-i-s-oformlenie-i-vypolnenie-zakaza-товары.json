@@ -1,0 +1,148 @@
+﻿{
+  "name": "IISOformlenie_i_vypolnenie_zakazaТовары",
+  "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-товары",
+  "className": "Товары",
+  "nameSpace": "IIS.Oformlenie_i_vypolnenie_zakaza",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодТовара",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "название",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "ценаЗаЕд",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "вНаличии",
+      "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-в-наличии",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТоварыE",
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-товары",
+      "attrs": [
+        {
+          "name": "ценаЗаЕд",
+          "caption": "Цена за ед",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодТовара",
+          "caption": "Код товара",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Количество",
+          "lookupValueField": "количество",
+          "relationName": "ВНаличии",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "количество",
+              "caption": "Количество",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "В наличии",
+          "name": "вНаличии",
+          "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-в-наличии",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ТоварыL",
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-товары",
+      "attrs": [
+        {
+          "name": "ценаЗаЕд",
+          "caption": "Цена за ед",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодТовара",
+          "caption": "Код товара",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ВНаличии",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "количество",
+              "caption": "Количество",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Количество",
+          "name": "вНаличии",
+          "relatedTo": "i-i-s-oformlenie-i-vypolnenie-zakaza-в-наличии",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

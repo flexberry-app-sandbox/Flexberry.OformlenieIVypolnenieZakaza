@@ -1,0 +1,4 @@
+import IISOformlenie_i_vypolnenie_zakazaВНаличииEController from '../i-i-s-oformlenie-i-vypolnenie-zakaza-в-наличии-e';
+
+var IISOformlenie_i_vypolnenie_zakazaВНаличииENewController = IISOformlenie_i_vypolnenie_zakazaВНаличииEController;
+export default IISOformlenie_i_vypolnenie_zakazaВНаличииENewController;

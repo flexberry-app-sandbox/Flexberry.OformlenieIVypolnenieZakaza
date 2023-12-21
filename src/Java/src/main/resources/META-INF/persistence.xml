@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Oformlenie_i_vypolnenie_zakaza.model.SostavZakaza</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.Opoveshheniya</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.VNalichii</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.MestoVydachi</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.Prodavec</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.Tovary</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.Zakazy</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.Kontragent</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.FlexberryAdvLimit</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.NewPlatformFlexberryServicesLock</class>
+        <class>Oformlenie_i_vypolnenie_zakaza.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

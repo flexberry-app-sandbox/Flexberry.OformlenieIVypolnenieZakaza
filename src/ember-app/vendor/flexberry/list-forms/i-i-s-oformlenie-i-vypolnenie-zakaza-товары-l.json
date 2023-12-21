@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-товары-e",
+  "editForm": "i-i-s-oformlenie-i-vypolnenie-zakaza-товары-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISOformlenie_i_vypolnenie_zakazaТоварыL",
+  "className": "ТоварыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-oformlenie-i-vypolnenie-zakaza-товары",
+      "modelProjection": "ТоварыL"
+    }
+  ]
+}
